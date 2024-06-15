@@ -12,3 +12,24 @@ class Rev{
        }
     }
 }
+
+/// palindrome of a number
+class palindrom{
+    public static void main(String[] args) {
+        int rev_num = 0;
+        int n = 1221;
+        int original_num = n; 
+
+        while (n > 0) { 
+            int k = n % 10;
+            n = n / 10;
+            rev_num = rev_num * 10 + k;
+        }
+        System.out.println(rev_num);
+        if (original_num == rev_num) { 
+            System.out.println("The number is a palindrome.");
+        } else {
+            System.out.println("The number is not a palindrome.");
+        }
+    }
+}
