@@ -1,3 +1,6 @@
+// printing the digits in reverse order
+
+
 class Rev{
     public static void main(String[] args) {
         int n = 5523;
