@@ -21,3 +21,28 @@ class recursion{
         recur();
     }
 }
+
+
+///print n numbers
+
+class recursion{
+ static int n = 4;
+    public static void recur(int n){
+        
+        if (n == 0 ){
+            return;
+        }
+        System.out.println(n);
+        recur(n-1);
+        
+    }
+    
+    
+    
+    
+    
+
+    public static void main(String[] args) {
+        recur(n);
+    }
+}
