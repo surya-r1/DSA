@@ -46,3 +46,28 @@ class recursion{
         recur(n);
     }
 }
+//// another form
+
+
+class recursion{
+ static int n = 4;
+    public static void recur(int n){
+        
+        if (n == 0 ){
+            return;
+        }
+        
+        recur(n-1);
+     System.out.print(n+" ");
+        
+    }
+    
+    
+    
+    
+    
+
+    public static void main(String[] args) {
+        recur(n);
+    }
+}
