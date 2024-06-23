@@ -1,1 +1,23 @@
+//// to print name 5 times
 
+class recursion{
+ static int count = 0;
+    public static void recur(){
+        
+        if (count == 5 ){
+            return;
+        }
+        System.out.println("name");
+         count++;
+        recur();
+    }
+    
+    
+    
+    
+    
+
+    public static void main(String[] args) {
+        recur();
+    }
+}
